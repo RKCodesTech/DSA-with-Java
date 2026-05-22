@@ -1,0 +1,92 @@
+
+Level 1: Basic Recursion (Understanding function calls)
+
+Print numbers from 1 to N.
+
+Print numbers from N to 1.
+
+Print “Hello” N times using recursion.
+
+Find the sum of first N natural numbers.
+
+Find factorial of a number.
+
+Find nth Fibonacci number.
+
+Find power of a number (xⁿ).
+
+Check if a string is palindrome using recursion.
+
+Find sum of digits of a number.
+
+Count number of digits in a number.
+
+
+
+
+
+⚙️ Level 2: Recursion with Choices (Branching logic)
+
+Print all elements of an array recursively.
+
+Find maximum element in an array recursively.
+
+Reverse an array using recursion.
+
+Reverse a string recursively.
+
+Count occurrences of a character in a string.
+
+Print all subsets of a string (power set).
+
+Print all subsequences of an array.
+
+Find sum of all subsets of array.
+
+Replace all occurrences of 'a' with 'b' in string recursively.
+
+Remove duplicates from a string recursively.
+
+🧠 Level 3: Recursion + Backtracking (Decision & Path-based problems)
+
+Generate all binary strings of length N.
+
+Solve Tower of Hanoi problem.
+
+Find all possible paths in a maze (N×N matrix).
+
+Rat in a Maze – print all paths from (0,0) to (n-1,n-1).
+
+N-Queens problem.
+
+Sudoku Solver using recursion.
+
+Word Search in 2D grid using recursion.
+
+Generate balanced parentheses for given n.
+
+Permutations of a string (all possible arrangements).
+
+Combinations of numbers that sum to a target.
+
+🚀 Level 4: Advanced Recursive Thinking
+
+Solve “Subset Sum Problem”.
+
+Generate all possible phone keypad combinations (like T9).
+
+Solve “Letter Combinations of a Phone Number”.
+
+Recursive binary search.
+
+Merge sort using recursion.
+
+Quick sort using recursion.
+
+Count total ways to climb N stairs (1 or 2 steps).
+
+Print all valid paths in a grid with obstacles.
+
+Generate power set of an array with duplicates (no repeat subsets).
+
+Word break problem (can string be segmented into dictionary words?).

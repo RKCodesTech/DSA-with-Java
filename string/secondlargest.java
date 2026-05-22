@@ -1,0 +1,22 @@
+public class SecondLargestDigit {
+    public static void main(String[] args) {
+        String str = "a4b9c7";
+        int largest = 0, second = 0;
+
+        for(int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+
+            if(Character.isDigit(ch)) {
+                int num = ch - '0';
+                if(num > largest) {
+                    second = largest;
+                    largest = num;
+                } 
+                else if(num > second && num != largest) {
+                    second = num;
+                }
+            }
+        }`
+        System.out.println(second);
+    }
+}

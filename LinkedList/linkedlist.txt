@@ -1,0 +1,27 @@
+Create a singly linked list and insert elements.
+Display all elements of a linked list.
+Count number of nodes in a linked list.
+Search an element in a linked list.
+Insert a node at the beginning.
+Insert a node at the end.
+Insert a node at a given position.
+Delete a node from the beginning.
+Delete a node from the end.
+Delete a node at a given position.
+🔹 Basic → Intermediate (11–17)
+Reverse a linked list (iterative).
+Reverse a linked list (recursive).
+Find middle element of linked list.
+Detect loop in linked list (Floyd Cycle Detection).
+Find length of loop in linked list.
+Remove duplicates from a sorted linked list.
+Merge two sorted linked lists.
+🔹 Intermediate Level (18–25)
+Check if linked list is palindrome.
+Find nth node from end.
+Intersection point of two linked lists.
+Delete a node without head pointer.
+Sort a linked list (Merge Sort).
+Flatten a multilevel linked list.
+Rotate linked list by k positions.
+Add two numbers represented by linked lists.

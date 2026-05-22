@@ -1,0 +1,43 @@
+Questions Using Built-In String Methods:
+
+
+1. Convert String to Uppercase: Write a program that converts a string to uppercase using
+upper().
+2. Convert String to Lowercase: Write a program that converts a string to lowercase using
+lower().
+3. Check if String is a Number: Write a program that checks if a string can be converted to a
+number using isdigit().
+4. Check if String is a Valid Email: Write a program that checks if a string is a valid email
+using find() or in keyword.
+5. Trim Whitespace: Write a program that trims any leading and trailing spaces from a string
+using strip().
+6. Replace Substring: Write a program that replaces a given substring with another
+substring using replace().
+7. Split a String: Write a program that splits a string into a list of words using split().
+8. Check if String Starts with a Substring: Write a program that checks if a string starts with
+a specific substring using startswith().
+9. Check if String Ends with a Substring: Write a program that checks if a string ends with a
+specific substring using endswith().
+10. Find Index of a Substring: Write a program that finds the index of a substring within a
+string using find().
+11. Count Substring Occurrences: Write a program that counts how many times a specific
+substring appears in a string using count().
+12. Check if String Contains Only Alphabetical Characters: Write a program that checks if a
+string contains only alphabetic characters using isalpha().
+13. Check if String Contains Only Digits: Write a program that checks if a string contains only
+digits using isdigit().
+14. Convert String to Title Case: Write a program that converts a string to title case using
+title().
+15. Check if String is a Valid Identifier: Write a program that checks if a string is a valid
+identifier using isidentifier().
+16. Remove All Whitespaces: Write a program that removes all whitespaces from a string
+using replace() or join().
+17. Find Length of String: Write a program that finds the length of a string using len().
+18. Check if String is Empty: Write a program that checks if a string is empty using len() or
+not operator.
+19. Join List of Strings: Write a program that joins a list of words into a single string using
+join().
+20. Check if String is Alphanumeric: Write a program that checks if a string contains only
+alphanumeric characters using isalnum().
+Sure! Here are 20 practice questions focusing solely on arrays (lists) and strings, using loops,
+if-else, and built-in methods:

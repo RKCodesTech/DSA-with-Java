@@ -1,0 +1,133 @@
+History of Java-
+
+    developed by james Gosling with his team sun microsystem in 1995
+    java is a highlevel, obeject oriented , platform independent programming Language 
+    highlevel- because it is human readable syntax and human dont need to interact directly with hardware
+
+    object oriented- because it supports oop 
+
+    platform independent-because it converts source code of java into byte code that byte code can run 
+    any operating system like on linux, window etc by its jvm but jvm is different 
+    for different operating system.
+
+java editions
+    java SE(standard editions)- base,oop,Collection,exception Handling Use to build desktop and standalone
+    application( which can run directly on your computer (os) like calculator, notepad)
+
+    java EE(Enterprise editions)-use to develop high applications and webs it supports technologies like servet JSP(java server pages),JDBC (java database connectivity).
+
+
+Java versions
+    1.LTS-Latetest
+    2. Current-
+
+JDK-Java development kit (a kit that holds implementation)
+JRE-java run time Environment(which help to run java program)
+JVM-java virtual machine(convert byte code into machine code)
+
+java working- java source code -> byte code(.class) -> jvm(java virtual machine) converts code in to machine code
+
+java basic structure-
+public- Access Modifiers(access of funtions, data Member)
+static-use to create object of main class
+void- (return type) use to return non
+main- firslty this method will execute
+string[]- that takes input as string
+
+data - any type of information.
+data type- type of data
+
+1byte =8bits
+ 1. premitive-pre defined 
+    tpye    size    range
+    1.byte- 1byte   -128-127
+    2.short-2byte 
+    3.int-4byte     -2,147,483,648 to 2,147,483,647 
+    4.long-8byte
+    5.float-4byte
+    6.double-8byte
+    7.char-2byte
+    8.boolean-1bit
+
+2. Non premintive- user defined
+   1.string
+   2.array
+   3.class
+
+type casting in java
+    1.widening casting - automatically done by java (long->int->byte)
+    2.narrowing- by user (byte->int->long)
+        ex- int a=10;
+            byte b=(int) a
+
+operators in java
+ 1.Airthmetic operator
+ 2.logical operator
+ 3.bitwise operator
+ 4.predence operator
+ 5.assignment operator
+ 6.
+
+
+ternary operator
+int a = 10;
+int b = 20;
+
+int max = (a > b) ? a : b;
+
+System.out.println(max);
+
+
+        int a =num/100;
+        int b=(num/10)%10;
+        int c=num%10;
+  
+
+
+
+
+
+
+
+doubt
+static vairable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

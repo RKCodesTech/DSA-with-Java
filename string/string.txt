@@ -1,0 +1,44 @@
+String - is a collection of characters surronded by (" ")
+Methods of String - 
+    length() ex txt.length()
+    .toUpperCase()
+    .toLowerCase()
+    trim() -removes white spaces
+    .equals() to compare strings
+    equalsIgnorecase()
+    substring(1,4)
+    replace('a','b')
+    split()- breaks string into array
+    compareto
+    comapretoignore
+    valueof()- tells data type
+    .repeat()-
+    txt.startswith("ab")
+    txt.endwith("e")
+    txt.isEmpty() - checks if string is empty or not
+    .CharArray() - converts string into array of single characters
+    String words= txt.split(" ")- converts string into word array
+
+Concatination (+) - is not just adding to no. like 3+4=7 but in string Concatination means concatinate 
+    to strings like : System.out.println(firstname + " " + lastname)
+
+    concat() - is method to concatinate to strings like 
+        system.out.println(firstname.concat(lastname).concat(age))
+
+Special characters- if i want to print strign like this my name is "Riay" kosta it will show error 
+     so we use Special character like \" riya \" o/p - "riya"
+     \' - to insert single chord '
+     \\ - to insert backslash \
+some other-
+\n - for new line 
+\t - for tab
+\b -backslash
+\f-    String str2="my name is \f Riya "; will only print- Riya
+
+for Ex-
+String s="riya"
+System.out.println(s.concat("kosta")) // it will print riyakosta
+system.out.println(s) // it will print riya
+
+for each?
+loops?

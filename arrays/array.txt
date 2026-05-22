@@ -1,0 +1,70 @@
+Focus: patterns like sliding window, two pointers
+
+Find largest subarray sum (Kadane’s Algorithm)
+
+Two Sum problem
+
+Best time to buy and sell stock
+
+Rearrange array (positive + negative alternate)
+
+Find duplicate element (without extra space)
+
+Longest consecutive sequence
+
+Subarray with given sum
+
+Rotate array (left/right by k steps)
+
+🔹 Level 4: Medium+ (High value questions)
+
+Focus: deeper logic
+
+Majority element (Moore’s Voting Algorithm)
+
+Merge two sorted arrays (without extra space)
+
+Count inversions in array
+
+Trapping rainwater problem
+
+Product of array except self
+
+Maximum product subarray
+
+
+
+🔹 Level 1 (10–12 questions)
+
+Basics:
+
+Print array
+Sum of elements
+Find max/min
+Count even/odd
+Reverse array
+
+👉 Goal: Comfort with loops + indexing
+
+🔹 Level 2 (10–15 questions)
+
+Logic building:
+
+Second largest element
+Remove duplicates
+Left/right rotation
+Frequency of elements
+Check sorted or not
+
+👉 Goal: Start thinking logically
+
+🔹 Level 3 (5–10 questions)
+
+Pattern-based:
+
+Two sum (basic)
+Subarray sum
+Kadane’s (max subarray)
+Prefix sum basics
+
+👉 Goal: Problem-solving mindset

@@ -1,0 +1,206 @@
+Java math
+
+Jagged array
+
+Array vs ArrayList
+
+Common array programs
+
+7️⃣ OOP Concepts (VERY IMPORTANT)
+
+Dynamic method dispatch
+
+instanceof
+
+9️⃣ Keywords
+
+synchronized
+
+volatile
+
+transient
+
+🔟 Strings
+
+StringBuffer
+
+StringBuilder
+
+1️⃣1️⃣ Exception Handling --------------------
+
+Exception hierarchy
+
+Checked & unchecked exceptions
+
+try-catch
+
+Multiple catch
+
+finally
+
+throw & throws
+
+Custom exception
+
+1️⃣3️⃣ Inner Classes
+
+Member inner class
+
+Static inner class
+
+Anonymous inner class
+
+1️⃣4️⃣ Multithreading
+
+Thread lifecycle
+
+Creating thread (Thread class, Runnable)
+
+Thread methods
+
+Synchronization
+
+Inter-thread communication
+
+Deadlock
+
+1️⃣5️⃣ Collections Framework
+
+Collection hierarchy
+
+List:
+
+ArrayList
+
+LinkedList
+
+Vector
+
+Set:
+
+HashSet
+
+LinkedHashSet
+
+TreeSet
+
+Map:
+
+HashMap
+
+LinkedHashMap
+
+TreeMap
+
+Iterator & ListIterator
+
+Comparable & Comparator
+
+1️⃣6️⃣ File Handling & I/O
+
+File class
+
+Byte streams
+
+Character streams
+
+Serialization & Deserialization
+
+1️⃣7️⃣ Java 8 Features (Basics)
+
+Lambda expressions
+
+Functional interface
+
+Stream API
+
+forEach()
+
+Optional class
+
+🚀 ADVANCED JAVA (FULL – NOTHING SKIPPED)
+1️⃣ JDBC
+
+JDBC architecture
+
+JDBC drivers
+
+Steps to connect DB
+
+CRUD operations
+
+PreparedStatement
+
+ResultSet
+
+2️⃣ Web Basics
+
+What is web application
+
+Client & Server
+
+HTTP & HTTPS
+
+GET vs POST
+
+3️⃣ Servlets
+
+Servlet architecture
+
+Servlet lifecycle
+
+doGet() & doPost()
+
+Request & Response
+
+ServletConfig & ServletContext
+
+URL mapping
+
+4️⃣ JSP
+
+JSP lifecycle
+
+JSP directives
+
+JSP scriptlets
+
+JSP implicit objects
+
+Expression Language (EL)
+
+JSTL
+
+5️⃣ Session Management
+
+Cookies
+
+HttpSession
+
+URL rewriting
+
+6️⃣ MVC Architecture
+
+MVC flow
+
+Role of Servlet & JSP
+
+7️⃣ Filters & Listeners
+
+Servlet filters
+
+Servlet listeners
+
+8️⃣ Security Basics
+
+Authentication
+
+Authorization
+
+9️⃣ Mini Project
+
+Login / Registration
+
+CRUD application
+
+MVC based project

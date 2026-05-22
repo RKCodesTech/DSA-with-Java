@@ -1,0 +1,140 @@
+rectangle 
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+
+Print a right-angled triangle
+*
+* *
+* * *
+* * * *
+* * * * *
+
+Print an inverted right-angled triangle
+* * * * *
+* * * *
+* * 
+*
+
+Print a pyramid pattern
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+
+Print an inverted pyramid
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+
+Print numbers in triangle form
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+Print continuous numbers
+1
+2 3
+4 5 6
+7 8 9 10
+
+Print Floyd’s triangle
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+Print a pyramid of numbers
+    1
+   1 2
+  1 2 3
+ 1 2 3 4
+1 2 3 4 5
+
+Print alphabet triangle
+A
+A B
+A B C
+A B C D
+A B C D E
+
+Print alphabet pyramid
+    A
+   A B
+  A B C
+ A B C D
+A B C D E
+
+Hollow square pattern
+* * * * *
+*       *
+*       *
+*       *
+* * * * *
+
+    *
+   * *
+  *   *
+ *     *
+* * * * *
+
+*        *
+**      **
+***    ***
+****  ****
+***** *****
+****  ****
+***    ***
+**      **
+*        *
+
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+
+    1
+   121
+  12321
+ 1234321
+123454321
+
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+
+1. Write a Python program to print all the numbers from 1 to 10 using a for loop.
+2. Write a Python program to calculate the sum of numbers from 1 to 100 using a for loop.
+3. Write a Python program to print the multiplication table of a given number (input from
+user) using a for loop.
+4. Write a Python program to print all the even numbers between 1 and 50 using a while
+loop.
+5. Write a Python program to reverse a given number using a while loop.
+6. Write a Python program to print all prime numbers between 1 and 100 using a for loop.
+7. Write a Python program that calculates the factorial of a number entered by the user
+using a while loop.
+8. Write a Python program to print the Fibonacci series up to the nth term using a while
+loop.
+9. Write a Python program to count the number of digits in a given number using a while
+loop.
+10. Write a Python program to print the sum of squares of numbers from 1 to 10 using a for
+loop.
