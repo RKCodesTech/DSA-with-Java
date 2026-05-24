@@ -1,7 +1,7 @@
 public class SecondLargestDigit {
     public static void main(String[] args) {
 
-        String str = "a4b9c7";
+        String str = "a45h6jh";
 
         int largest = -1;
         int secondLargest = -1;
