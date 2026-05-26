@@ -10,7 +10,7 @@ public class average {
             sum += arr[i];
             count++;
         }
-        double a =(double)sum/count;
+        double a =sum/count;
         System.out.println(a);
     }
 }

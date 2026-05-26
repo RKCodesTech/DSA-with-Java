@@ -13,6 +13,6 @@ public class maximum {
             }
 
         }
-        System.outli.println(num);
+        System.out.println(num);
     }
 }
