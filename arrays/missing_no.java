@@ -16,7 +16,7 @@ public class missing_no {
                 System.out.println("Missing number: " + expected);
                 i--; // stay on same element
             }
-
+// this will add 
             expected++;
         }
     }
