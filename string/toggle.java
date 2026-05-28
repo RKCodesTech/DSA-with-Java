@@ -10,7 +10,7 @@ public class toggle {
             }else if(c>='A'&&c<='Z'){
                 result+=(char)(c+32); // c+32 means adding 32 in character's ascii
             }
-            else{
+            else{ // this is toggle code
                 result+=c;
             }
         }
