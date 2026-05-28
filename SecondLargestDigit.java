@@ -1,3 +1,6 @@
+// to remove a line from vs code shift+ctrl+k
+
+
 public class SecondLargestDigit {
     public static void main(String[] args) {
 
