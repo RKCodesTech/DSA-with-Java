@@ -13,6 +13,8 @@ String s1 = (String) list.get(0);
 String s2 =(String) list.get(1); // you are taking integer list element as string. by typecasting it will generate exception while run time
 
 
+
+// so java 5 develop new thing in arrray list that define data type while creating it 
 ArrayList<String> list2 =new ArrayList<>(); // here we <String> define that all element will be string type.. so no exception and that is Generic
 list2.add("hello ");
 list2.add("Riya");
