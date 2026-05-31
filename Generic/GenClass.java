@@ -29,7 +29,7 @@ package Generic;
     this.value=value;
  }
 }
-public class ObjectGen {
+public class GenClass {
     public static void main(String[] args) {
         Box<Integer> b1=new Box<>();
         b1.set(100);
