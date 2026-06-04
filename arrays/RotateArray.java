@@ -1,6 +1,6 @@
 package arrays;
 
-public import java.util.*;
+import java.util.Arrays;
 
 public class RotateArray {
     static void reverse(int[] arr, int l, int r) {
