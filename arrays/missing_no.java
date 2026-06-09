@@ -1,7 +1,7 @@
 // Find the Missing Number: Write a program that takes an array of n-1 numbers (ranging
 // from 1 to n), where one number is missing, and prints the missing number. For example,
 // for the array [1, 2, 4, 5], the missing number is 3.
-package arrays;
+
 
 public class missing_no {
     public static void main(String[] args) {
@@ -16,8 +16,9 @@ public class missing_no {
                 System.out.println("Missing number: " + expected);
                 i--; // stay on same element
             }
-// this will add 
+
             expected++;
         }
     }
 }
+// jab expected se i match nhi hoga to expected to badhega hi or or i bhi badhega loop ki vajah se to ham i ko decrement kr denge  jisse expected and i same rahe
