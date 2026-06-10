@@ -3,7 +3,7 @@ package arrays;
 public class kadanes {
 
     public static void main(String[] args) {
-        int[] arr = {2, -2, 5, 3, -6, -4};
+        int[] arr = {2, -2, 5, 3,2, -6, -4};
 
         int currentSum = 0;
         int maxSum = arr[0];
