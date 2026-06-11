@@ -8,6 +8,7 @@ public class mergesortarr {
         int[] mergedarr=new int[arr1.length+arr2.length];
         System.arraycopy(arr1, 0, mergedarr, 0, arr1.length);
         System.arraycopy(arr2, 0, mergedarr, arr1.length, arr2.length);
+        
         for(int i=0;i<mergedarr.length;i++){
             for(int j=i+1;j<mergedarr.length;j++){
                 if(mergedarr[i]>mergedarr[j]){
@@ -15,6 +16,7 @@ public class mergesortarr {
                     mergedarr[i]=mergedarr[j];
                     mergedarr[j]=temp;
                 }
+                //or use mergedarr.sort();          for sorting 
             }
         }
         for(int elements: mergedarr){
