@@ -10,4 +10,4 @@ public class sumofarr {
     }System.out.println(sum);
 }
 
-    }
+    }// this is the sum of array
