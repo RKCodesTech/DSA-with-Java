@@ -1,23 +1,20 @@
 package arrays;
 
 import java.util.Arrays;
-
 public class movezeroatend {
     public static void main(String[] args) 
     {
-        int[] arr={0,3,6,0,6,0,6,9,6,9,0,0};
-        int index=0;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]!=0){ 
-                
-                arr[index]=arr[i];
-                index++;
-            }
-
-        }while(index<arr.length){
-            arr[index]=0;
+       int arr[]={1,0,0,5,0,6,5,40,5,0,5,0,5,0};
+       int index= 0;
+       for(int i=0; i<arr.length;i++){
+        if(arr[i]!=0){                      //this will take non 0's at the start
+            arr[index]=arr[i];
             index++;
         }
-        System.out.println(Arrays.toString(arr));
+       }
+       while(index<arr.length){
+        arr[index]=0;                  // this will fill 0s at remainnign place
+        index++;
+       }
     }
 }
