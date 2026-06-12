@@ -2,7 +2,7 @@ package arrays;
 
 public class SecondLargest {
     public static void main(String[] args) {
-        int arr[] = {1, 2, 3, 6, 7};
+        int arr[] = {1, 0, 3, 6, 7};
 
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
