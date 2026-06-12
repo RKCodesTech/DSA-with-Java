@@ -23,4 +23,4 @@ public class hashmap1 {
 
         System.out.println(hash);
     }
-}
+}//hash
