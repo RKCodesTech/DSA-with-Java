@@ -1,6 +1,6 @@
 package arrays;
 
-public class SecondLargest {
+public class secondLargest {
     public static void main(String[] args) {
         int arr[] = {1, 0, 3, 6, 7};
 
