@@ -1,8 +1,8 @@
 package hashmap;
 
-public import java.util.HashMap;
+ import java.util.HashMap;
 
-public class Main {
+public class hashHighest {
     public static void main(String[] args) {
 
         int arr[] = {2, 4, 2, 5, 3, 5, 2, 4, 5};
