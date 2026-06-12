@@ -1,5 +1,5 @@
 package arrays;
-
+//TC- o(n) SC- o(1)
 public class smallestno {
     public static void main(String[] args) {
         int[] arr={2,4,6,1,7};
