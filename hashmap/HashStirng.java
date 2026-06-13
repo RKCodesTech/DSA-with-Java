@@ -1,5 +1,7 @@
 package hashmap;
-
+//TC-wrost case -o(n^2)
+     //average case-o(n)
+//SC- o(n)
 import java.util.HashMap;
 
 public class HashStirng {
