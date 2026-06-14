@@ -1,5 +1,5 @@
 package sorting;
-//selection sort
+//selectionSort
 public class selectionsort {
     public static void main(String[] args) {
      int i=0;
