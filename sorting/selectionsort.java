@@ -3,7 +3,7 @@ package sorting;
 public class selectionsort {
     public static void main(String[] args) {
      int i=0;
-      int arr[]={10,6,188,9,8};
+      int arr[]={10,6,18,8,9,8,8,6,7,3};
      for(i=0; i<=arr.length-1;i++){
           int minimal=i;
         for(int j=i+1;j<=arr.length-1; j++){
