@@ -21,3 +21,12 @@ public class selectionsort {
     }
    
 }
+
+TC- outer loop n times 
+inner loop - i	j runs
+            0	n−1 times
+            1	n−2 times
+            2	n−3 times
+            so o(n2)
+    so o(n2)xn=o(n2)
+
