@@ -1,5 +1,5 @@
 package sorting;
-//selectionSort
+//selectionSort     select minimum then swap it with first element
 public class selectionsort {
     public static void main(String[] args) {
      int i=0;
