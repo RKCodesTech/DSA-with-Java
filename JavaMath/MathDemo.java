@@ -21,6 +21,13 @@ public class MathDemo {
         // Math.round()
         System.out.println("Round 4.6: " + Math.round(4.6));
 
+         // Math.ceil()
+        System.out.println("Ceil of 4.1: " + Math.ceil(4.1));
+
+        // Math.floor()
+        System.out.println("Floor of 4.9: " + Math.floor(4.9));
+
+
 
     }
 }
