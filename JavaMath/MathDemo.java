@@ -27,6 +27,13 @@ public class MathDemo {
         // Math.floor()
         System.out.println("Floor of 4.9: " + Math.floor(4.9));
 
+         // Math.random()
+        System.out.println("Random Number (0.0 to 1.0): " + Math.random());
+
+        // Random number between 0 and 100
+        int randomNum = (int)(Math.random() * 101);
+        System.out.println("Random Integer (0 to 100): " + randomNum);
+
 
 
     }
