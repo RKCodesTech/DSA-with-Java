@@ -14,6 +14,13 @@ public class MathDemo {
 
         // Math.abs()
         System.out.println("Absolute Value of -4.7: " + Math.abs(-4.7));
-        
+
+         // Math.pow()
+        System.out.println("2 raised to the power 3: " + Math.pow(2, 3));
+
+        // Math.round()
+        System.out.println("Round 4.6: " + Math.round(4.6));
+
+
     }
 }
