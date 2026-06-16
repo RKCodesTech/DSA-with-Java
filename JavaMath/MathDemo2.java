@@ -31,7 +31,22 @@ public class MathDemo2 {
         // Math.toDegrees()
         System.out.println("PI radians to degrees: " + Math.toDegrees(Math.PI));
 
-       
+        // Math.hypot() - √(x² + y²)
+        System.out.println("Hypotenuse of 3 and 4: " + Math.hypot(3, 4));
+
+        // Math.PI
+        System.out.println("Value of PI: " + Math.PI);
+
+        // Math.E
+        System.out.println("Value of E: " + Math.E);
+
+        // Math.incrementExact()
+        System.out.println("Increment 10: " + Math.incrementExact(10));
+
+        // Math.decrementExact()
+        System.out.println("Decrement 10: " + Math.decrementExact(10));
+
+      
    
     }
 }
