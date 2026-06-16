@@ -45,7 +45,29 @@ public class MathDemo2 {
 
         // Math.decrementExact()
         System.out.println("Decrement 10: " + Math.decrementExact(10));
+ // Math.hypot() - √(x² + y²)
+        System.out.println("Hypotenuse of 3 and 4: " + Math.hypot(3, 4));
 
+        // Math.PI
+        System.out.println("Value of PI: " + Math.PI);
+
+        // Math.E
+        System.out.println("Value of E: " + Math.E);
+
+        // Math.incrementExact()
+        System.out.println("Increment 10: " + Math.incrementExact(10));
+
+        // Math.decrementExact()
+        System.out.println("Decrement 10: " + Math.decrementExact(10));
+
+        // Math.multiplyExact()
+        System.out.println("Multiply 20 and 5: " + Math.multiplyExact(20, 5));
+
+        // Math.addExact()
+        System.out.println("Add 15 and 25: " + Math.addExact(15, 25));
+
+        // Math.subtractExact()
+        System.out.println("Subtract 50 - 20: " + Math.subtractExact(50, 20));
       
    
     }
