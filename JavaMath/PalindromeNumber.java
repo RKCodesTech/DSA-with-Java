@@ -12,5 +12,5 @@ public class PalindromeNumber {
         else
             System.out.println("Not Palindrome");
     }
-    //palindrome
+    //palindrome  program
 }
