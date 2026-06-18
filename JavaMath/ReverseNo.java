@@ -5,11 +5,11 @@ public class ReverseNo {
         int rev = 0;
 
         while (n > 0) {
-            int digit = n % 10;
+            int digit = n % 10;    //12345
             rev = rev * 10 + digit;
             n /= 10;
         }
 
-        System.out.println("Reversed Number: " + rev);
+        System.out.println("Reversed Number: " + rev);//understand
     }
 }
