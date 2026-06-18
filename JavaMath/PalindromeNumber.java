@@ -6,7 +6,7 @@ public class PalindromeNumber {
             rev = rev * 10 + temp % 10;
             temp /= 10;
         }
-
+//palindrome.java
         if (num == rev)
             System.out.println("Palindrome");
         else
