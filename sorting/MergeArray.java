@@ -2,12 +2,10 @@ package sorting;
 
 public public class MergeArray {
     public static void main(String[] args) {
-
         int arr1[] = {1, 2, 3};
         int arr2[] = {4, 5, 6};
-
         int merged[] = new int[arr1.length + arr2.length];
-
+        
         // Copy elements of arr1
         for (int i = 0; i < arr1.length; i++) {
             merged[i] = arr1[i];
