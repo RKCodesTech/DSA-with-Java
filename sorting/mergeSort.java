@@ -54,7 +54,7 @@ public class MergeSort {
         while (j < n2) {
             arr[k++] = rightArr[j++];
         }
-    }//logic
+    }
 
     public static void main(String[] args) {
         int[] arr = {38, 27, 43, 3, 9, 82, 10};
@@ -63,6 +63,4 @@ public class MergeSort {
 
         System.out.println("Sorted Array: " + Arrays.toString(arr));
     }
-} {
-    
 }
