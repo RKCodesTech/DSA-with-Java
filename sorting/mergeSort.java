@@ -64,3 +64,25 @@ public class MergeSort {
         System.out.println("Sorted Array: " + Arrays.toString(arr));
     }
 }
+// Main Steps of Merge Sort
+// Step 1: Divide
+// Divide the array into two equal halves.
+
+// Find the middle index using:
+
+// mid = left + (right - left) / 2;
+// Step 2: Recursively Sort
+// Recursively apply Merge Sort on the left half.
+// Recursively apply Merge Sort on the right half.
+// Continue dividing until each subarray contains only one element.
+
+// A single-element array is already sorted.
+
+// Step 3: Merge
+// Create two temporary arrays for the left and right halves.
+// Compare the elements of both arrays one by one.
+// Copy the smaller element into the original array.
+// After one temporary array is exhausted, copy the remaining elements of the other array.
+// Step 4: Repeat
+// Repeat the merge process while returning from the recursive calls.
+// Eventually, all subarrays are merged into one completely sorted array.
