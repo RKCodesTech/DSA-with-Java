@@ -56,3 +56,17 @@ public class linkedllist1{
 
     }
 }
+//first we create a class which will take input paramenter a data 
+//and then create a variable Node next; which will hold address (refrence of oblject )
+//then create a objects of that node class like-
+// head(1);
+// d2(2);
+// d3(3);
+//address of next node into current node like-
+// head.next=d2;//address of next node
+// d2.next=d3;
+// then storing Node temp=head
+// then from while loop checkin that temp is null or not if no then
+//print temp.data it means head.data=1
+// then temp=temp.next; means temp=head.next; -> temp=d2;
+// coutinue until temp becomes null;
