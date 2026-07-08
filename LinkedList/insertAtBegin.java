@@ -23,9 +23,10 @@ class Node {
         Node newNode=new Node(1);
         newNode.next=head;
         head=newNode;
-        int temp =head;
-        while(head==null){
-            System.out.println();
+        Node temp =head;
+        while(temp!=null){
+            System.out.println(temp.next);
+            temp=temp.next;
         }
     }
 } 
