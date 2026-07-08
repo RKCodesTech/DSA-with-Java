@@ -1,15 +1,13 @@
 package LinkedList;
-public class insertAtBegin {
-public class node {
+
+class Node {
     int data;
     Node next;
 
     Node(int data) {
         this.data = data;
     }
-}
-
-
+}public class insertAtBegin {
     public static void main(String[] args) {
 
         Node head = new Node(10);
