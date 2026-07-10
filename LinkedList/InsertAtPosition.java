@@ -12,7 +12,7 @@ public class InsertAtPosition {
 
     Node head;
 
-    // Insert at specific position
+    // Insert at specific position in linked list
     public void insertAtPosition(int data, int position) {
 
         Node newNode = new Node(data);
