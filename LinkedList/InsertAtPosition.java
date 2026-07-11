@@ -74,3 +74,13 @@ public class InsertAtPosition {
         list.display();
     }
 }
+// Create a new node.
+// If position is 1:
+// Make the new node point to the current head.
+// Update the head to the new node.
+// Otherwise:
+// Move to the node just before the desired position.
+// If that node doesn't exist, the position is invalid.
+// Make the new node point to the next node.
+// Make the previous node point to the new node.
+
