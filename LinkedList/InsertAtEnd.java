@@ -13,32 +13,19 @@ public class InsertAtEnd {
     public static void main(String[] args) {
 
         Node head = new Node(10);
-
         head.next = new Node(20);
         head.next.next = new Node(30);
 
         Node newNode = new Node(40);
 
-        // If list is empty
-        if (head == null) {
-            head = newNode;
-            } else {
-
-            Node temp = head;
-
-            while (temp.next != null) {
-                temp = temp.next;
-            }
-
-            temp.next = newNode;
-        }
-
-        // Display
         Node temp = head;
 
-        while (temp != null) {
-            System.out.print(temp.data + " ");
+        while (temp.next != null) {
             temp = temp.next;
         }
+
+        temp.next = newNode;
+
+        
     }
 }
