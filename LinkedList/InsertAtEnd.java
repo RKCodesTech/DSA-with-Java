@@ -22,7 +22,7 @@ public class InsertAtEnd {
         // If list is empty
         if (head == null) {
             head = newNode;
-        } else {
+            } else {
 
             Node temp = head;
 

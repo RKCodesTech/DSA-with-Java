@@ -1,6 +1,3 @@
-package LinkedList;
-
-import java.nio.channels.Pipe.SourceChannel;
 
 class Node {
     int data;
@@ -21,8 +18,8 @@ class Node {
         n2.next=n3;
         //inserting new Node;
         Node newNode=new Node(1);
-        newNode.next=head;
-        head=newNode;
+            newNode.next=head; //Before changing head, you already saved the old head inside newNode.next.
+            head=newNode;
         Node temp =head;
         while(temp!=null){
             System.out.println(temp.next);
