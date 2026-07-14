@@ -12,12 +12,10 @@ public class InsertAtPosition {
 
     Node head;
 
-    // Insert at specific position in linked list9ik
     public void insertAtPosition(int data, int position) {
 
         Node newNode = new Node(data);
 
-        // Position 1 (Beginning)
         if (position == 1) {
             newNode.next = head;
             head = newNode;
@@ -26,61 +24,35 @@ public class InsertAtPosition {
 
         Node temp = head;
 
-        // Move temp to (position-1)th node
+        // Move to the node before the desired position
         for (int i = 1; i < position - 1; i++) {
-
-            if (temp == null) {
-                System.out.println("Invalid Position");
-                return;
-            }
-
             temp = temp.next;
         }
 
-        if (temp == null) {
-            System.out.println("Invalid Position");
-            return;
-        }
-
+        // Insert the new node
         newNode.next = temp.next;
         temp.next = newNode;
     }
 
-    // Display Linked List
     public void display() {
-
         Node temp = head;
 
         while (temp != null) {
-            System.out.print(temp.data + " -> ");
+            System.out.print(temp.data + " ");
             temp = temp.next;
         }
-
-        System.out.println("null");
     }
 
     public static void main(String[] args) {
 
         InsertAtPosition list = new InsertAtPosition();
 
-        list.insertAtPosition(10,1);
-        list.insertAtPosition(20,2);
-        list.insertAtPosition(30,3);
+        list.insertAtPosition(10, 1);
+        list.insertAtPosition(20, 2);
+        list.insertAtPosition(30, 3);
 
-        list.display();
-
-        list.insertAtPosition(25,3);
+        list.insertAtPosition(25, 3);
 
         list.display();
     }
 }
-// Create a new node.
-// If position is 1:
-// Make the new node point to the current head.
-// Update the head to the new node.
-// Otherwise:
-// Move to the node just before the desired position.
-// If that node doesn't exist, the position is invalid.
-// Make the new node point to the next node.
-// Make the previous node point to the new node.
-
