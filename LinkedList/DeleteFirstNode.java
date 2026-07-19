@@ -12,7 +12,7 @@ public class DeleteFirstNode {
 
     Node head;
 
-    // Insert at End (for testing)
+    // Insert at End
     public void insert(int data) {
         Node newNode = new Node(data);
 
@@ -25,25 +25,22 @@ public class DeleteFirstNode {
         while (temp.next != null) {
             temp = temp.next;
         }
+
         temp.next = newNode;
     }
 
     // Delete First Node
     public void deleteFirst() {
-
         if (head == null) {
             System.out.println("Linked List is Empty");
             return;
         }
 
         head = head.next;
-
-        System.out.println("First node deleted successfully.");
     }
 
-    // Display Linked List
+    // Display
     public void display() {
-
         Node temp = head;
 
         while (temp != null) {
