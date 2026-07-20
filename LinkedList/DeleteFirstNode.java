@@ -12,24 +12,6 @@ public class DeleteFirstNode {
 
     Node head;
 
-    // Insert at End
-    public void insert(int data) {
-        Node newNode = new Node(data);
-
-        if (head == null) {
-            head = newNode;
-            return;
-        }
-
-        Node temp = head;
-        while (temp.next != null) {
-            temp = temp.next;
-        }
-
-        temp.next = newNode;
-    }
-
-    // Delete First Node
     public void deleteFirst() {
         if (head == null) {
             System.out.println("Linked List is Empty");
@@ -39,7 +21,6 @@ public class DeleteFirstNode {
         head = head.next;
     }
 
-    // Display
     public void display() {
         Node temp = head;
 
@@ -55,10 +36,11 @@ public class DeleteFirstNode {
 
         DeleteFirstNode list = new DeleteFirstNode();
 
-        list.insert(10);
-        list.insert(20);
-        list.insert(30);
-        list.insert(40);
+        // Creating the linked list manually
+        list.head = new Node(10);
+        list.head.next = new Node(20);
+        list.head.next.next = new Node(30);
+        list.head.next.next.next = new Node(40);
 
         System.out.println("Before Deletion:");
         list.display();
