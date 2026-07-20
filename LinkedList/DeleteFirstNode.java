@@ -15,7 +15,8 @@ class DeleteFirstNode {
         if (head == null) {
             System.out.println("List is Empty");
         } else {
-            head = head.next;
+            head = head.next;// move head to the next node now head is second node no variable is connected with first node
+                             // and java can'nt reach that node then garbage collector automatically removes it from memory later
         }
     }
 
