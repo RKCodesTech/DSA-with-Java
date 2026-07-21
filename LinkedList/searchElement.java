@@ -48,7 +48,7 @@ public class searchElement {
 
     public static void main(String[] args) {
 
-        SearchElement list = new SearchElement();
+        searchElement list = new searchElement();
 
         list.insert(10);
         list.insert(20);
