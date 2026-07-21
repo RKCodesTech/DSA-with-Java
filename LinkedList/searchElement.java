@@ -1,4 +1,4 @@
-public class SearchElement {
+public class searchElement {
 
     class Node {
         int data;
