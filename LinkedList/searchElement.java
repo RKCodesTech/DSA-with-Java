@@ -1,35 +1,26 @@
+class Node {
+    int data;
+    Node next;
+
+    Node(int data) {
+        this.data = data;
+    }
+}
+
 public class searchElement {
 
-    class Node {
-        int data;
-        Node next;
+    public static void main(String[] args) {
 
-        Node(int data) {
-            this.data = data;
-        }
-    }
+        int key = 234;
 
-    Node head;
+        Node head = new Node(10);
+        Node n1 = new Node(34);
+        Node n2 = new Node(4);
+        Node n3 = new Node(234);
 
-    void insert(int data) {
-
-        Node newNode = new Node(data);
-
-        if (head == null) {
-            head = newNode;
-            return;
-        }
-
-        Node temp = head;
-
-        while (temp.next != null) {
-            temp = temp.next;
-        }
-
-        temp.next = newNode;
-    }
-
-    void search(int key) {
+        head.next = n1;
+        n1.next = n2;
+        n2.next = n3;
 
         Node temp = head;
 
@@ -44,16 +35,5 @@ public class searchElement {
         }
 
         System.out.println("Element Not Found");
-    }
-
-    public static void main(String[] args) {
-
-        searchElement list = new searchElement();
-
-        list.insert(10);
-        list.insert(20);
-        list.insert(30);
-
-        list.search(20);
     }
 }
