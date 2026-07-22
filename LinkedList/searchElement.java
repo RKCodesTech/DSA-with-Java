@@ -19,8 +19,8 @@ public class searchElement {
         Node n3 = new Node(234);
 
         head.next = n1;
-        n1.next = n2;
-        n2.next = n3;
+    head.next.next= n2;
+    head.next.next.next = n3;
 
         Node temp = head;
 
