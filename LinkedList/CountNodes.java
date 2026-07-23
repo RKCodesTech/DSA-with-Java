@@ -18,8 +18,8 @@ public class CountNodes {
         Node temp = head;
         int count = 0;
 
-        while (temp != null) {
-            count++;
+        while (temp != null) {// will check until reach the end node
+            count++;           // count wil increase how many times node apearg
             temp = temp.next;
         }
 
