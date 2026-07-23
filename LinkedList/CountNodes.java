@@ -19,7 +19,7 @@ public class CountNodes {
         int count = 0;
 
         while (temp != null) {// will check until reach the end node
-            count++;           // count wil increase how many times node apearg
+            count++;           // count wil increase how many times node apear
             temp = temp.next;
         }
 
