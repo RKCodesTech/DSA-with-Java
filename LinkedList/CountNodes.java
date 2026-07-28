@@ -15,8 +15,15 @@ public class CountNodes {
     // Count total nodes
     public void countNodes() {
 
-        
+        int count = 0;
+        Node temp = head;
 
+        while (temp != null) {
+            count++;
+            temp = temp.next;
+        }
+
+        System.out.println("Total Nodes = " + count);
     }
 
     public static void main(String[] args) {
