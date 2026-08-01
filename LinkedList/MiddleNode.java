@@ -8,14 +8,24 @@ class Node {
     }
 }
 
-public class MiddleNode {
+public class LinkedList {
 
     Node head;
 
+    public Node findMiddle() {
+        Node slow = head;
+        Node fast = head;
 
+        while (fast != null && fast.next != null) {
+            slow = slow.next;          // 1 step
+            fast = fast.next.next;     // 2 steps
+        }
+
+        return slow;
+    }
 
     public static void main(String[] args) {
-        MiddleNode list = new MiddleNode();
+        LinkedList list = new LinkedList();
 
         list.head = new Node(10);
         list.head.next = new Node(20);
@@ -23,5 +33,8 @@ public class MiddleNode {
         list.head.next.next.next = new Node(40);
         list.head.next.next.next.next = new Node(50);
 
+        Node middle = list.findMiddle();
+
+        System.out.println("Middle Node: " + middle.data);
     }
 }
