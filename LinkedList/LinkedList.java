@@ -29,7 +29,7 @@ public class LinkedList {
 
         list.head = new Node(10);
         list.head.next = new Node(20);
-        list.head.next.next = new Node(30);
+        list.head.next.next = new Node(30);     //.next.next will store other address of next from header
         list.head.next.next.next = new Node(40);
         list.head.next.next.next.next = new Node(50);
 
