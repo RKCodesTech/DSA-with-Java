@@ -8,7 +8,7 @@ class Node {
     }
 }
 
-public class LinkedList {
+public class MiddleLinkedList {
 
     Node head;
 
