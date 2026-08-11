@@ -8,8 +8,7 @@ class Node {
     }
 }
 
-public class LinkedListLenght
- {
+public class LinkedListLength {
 
     Node head;
 
@@ -27,7 +26,8 @@ public class LinkedListLenght
     }
 
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
+
+        LinkedListLength list = new LinkedListLength();
 
         list.head = new Node(10);
         list.head.next = new Node(20);
