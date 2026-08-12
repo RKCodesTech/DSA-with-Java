@@ -33,7 +33,7 @@ public class LinkedListLength {
         list.head.next = new Node(20);
         list.head.next.next = new Node(30);
         list.head.next.next.next = new Node(40);
-
+//linked list
         System.out.println("Length = " + list.findLength());
     }
-}
+}            
