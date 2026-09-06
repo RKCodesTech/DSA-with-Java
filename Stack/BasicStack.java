@@ -9,7 +9,9 @@ public class BasicStack {
     st.push("aarav");
     st.push("ansh");
     st.push("kittu");
-    System.out.println(st.size());
-        System.out.println(st);
+    // System.out.println(st.size());
+    //     System.out.println(st);
+        System.out.println(st.pop());
+        System.out.println(st.peek());
 }
     }
