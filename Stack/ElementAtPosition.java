@@ -7,8 +7,9 @@ public class ElementAtPosition {
     Stack<Integer> st2= new Stack<>();
     int index=3;
     st.push(6);//0
-     st.push(1);//1
+         st.push(1);//1
      st.push(2);//2
+     
      st.push(4);//3
      while(index<st.size()){
        st2.push(st.pop());
