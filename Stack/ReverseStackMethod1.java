@@ -26,3 +26,5 @@ public class ReverseStackMethod1 {
     System.out.println(st);
   }  
 }
+//time complexity - o(n)
+//space Complexity - o(n)
