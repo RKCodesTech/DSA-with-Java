@@ -1,6 +1,6 @@
 package Stack;
 import java.util.*;
-public class ReverseStackMethod1 {
+public class ReverseStacnkMethod1 {
   public static void main(String[] args) {
     Stack<Integer> st= new Stack<>();
     Stack<Integer> st2= new Stack<>();
