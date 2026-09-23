@@ -1,5 +1,5 @@
 package Stack;
 
-public class newfile {
+public class newstack {
     
 }
