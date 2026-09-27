@@ -32,3 +32,5 @@ public class RecursionElementAtBottom {
         System.out.println(st);
     }
 }
+// time complexity o(n)
+// space complexity o(n)
