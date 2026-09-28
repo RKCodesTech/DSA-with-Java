@@ -12,10 +12,9 @@ class MyStack {
     Node head;
     int len;
 
-    int peek() {
+    int peek() throws Exception {
         if (head == null) {
-            System.out.println("stack is empty");
-            return -1;
+         throw new Exception("stack underflow error");//    exception handling
         } else {
             return head.val;
         }
@@ -55,8 +54,9 @@ temp=temp.next;
 
 public class implemetionUsingLinkedList {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)throws Exception {
 MyStack st=new MyStack();
+st.peek();
 st.push(10);
 st.push(20);st.push(30);st.push(40);st.push(50);
 st.display();
