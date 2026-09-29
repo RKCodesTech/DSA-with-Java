@@ -3,14 +3,10 @@ package Stack;
 import java.util.Stack;
 
 public class Recursion_ReverseStack {
-
     public static void reverse(Stack<Integer> st) {
-
         if (st.size() <= 1)
             return;
-
         int top = st.pop();
-
         reverse(st); // magic: recursion have to remmeber it
 
         pushAtBottom(st, top);

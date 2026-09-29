@@ -13,7 +13,7 @@ class Node {
         Node n1 =new Node(34);
         Node n2=new Node(4);
         Node n3=new Node(234);
-        head.next=n2;
+        head.next=n1;
         n1.next=n2;
         n2.next=n3;
         //inserting new Node;
