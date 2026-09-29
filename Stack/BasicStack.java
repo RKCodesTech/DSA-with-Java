@@ -8,6 +8,7 @@ public class BasicStack {
     st.push("pari");
     st.push("aarav");
     st.push("ansh");
+    st.push("chetan");
     st.push("kittu");
     // System.out.println(st.size());
     //     System.out.println(st);
