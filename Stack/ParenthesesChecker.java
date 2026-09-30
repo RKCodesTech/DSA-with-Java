@@ -12,8 +12,6 @@ public static void main(String[] args) {
     }else{
         System.out.println("parentheses are not balanced");
     }
-
-  
 }
 static Boolean isBalanced(String s){
       Stack<Character> st=new Stack<>();
@@ -32,9 +30,7 @@ static Boolean isBalanced(String s){
     }
     }if(st.empty()) return true;
     else return false;
- 
 }
-
 static Boolean sameStyle(char a,char b){
 if(a=='{' && b=='}')return true;
 if(a=='(' && b==')')return  true;
