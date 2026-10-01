@@ -31,3 +31,6 @@ public class RemoveConsecutive {
        
     }
 }
+
+//timecomplexity o(n)
+//SpaceComplexity o(n)
