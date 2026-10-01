@@ -39,3 +39,5 @@ if(a=='[' && b==']')return true;
 
 }
 }
+//TimeComplexity o(n) 1 loop is there
+// spaceComplexity o(n) we're using st(extra memory)
