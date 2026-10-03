@@ -1,5 +1,3 @@
-
-
 package Stack;
 import java.util.*;;
 public class RemoveAllAdjacent {
@@ -38,3 +36,5 @@ removeDuplicates(s);
            
         
     }
+    //tc o(n)
+    //sc o(n)
