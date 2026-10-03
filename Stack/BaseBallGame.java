@@ -26,3 +26,6 @@ public class BaseBallGame {
       System.out.println(total);
     }
 }
+// TC - o(n)
+//SC - o(n)
+
