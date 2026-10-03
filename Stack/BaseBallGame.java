@@ -5,6 +5,7 @@ import java.util.Stack;
 public class BaseBallGame {
     public static void main(String[] args) {
       String arr[] = {"4", "3", "C", "D", "+"};
+      int total=0;
       Stack <Integer> st=new Stack<>();
       for(int i=0;i<arr.length;i++){
         String s=arr[i];
@@ -18,12 +19,10 @@ public class BaseBallGame {
             st.push(sum);
         }else st.push(Integer.parseInt(s));
       }
-      System.out.println("prevous String");
-      for (String s : arr) {
-        System.out.print(s+" ");
+      for (Integer score : st) {
+        total+=score;
+        
       }
-      System.out.println();
-      System.out.println("after game");
-      System.out.println(st);
+      System.out.println(total);
     }
 }
