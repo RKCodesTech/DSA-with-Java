@@ -1,7 +1,7 @@
 package loops;
 import java.util.*;
 public class NoToPattern {
-    public static void main(String[] args) {
+    public static void main(String[] args) {       //>>>>>>>>>>>>>>>>>>>>>>>>>>>
         int[] arr= new int[4];
         System.out.println("Enter Four Numbers");
         Scanner sc =new Scanner(System.in);
