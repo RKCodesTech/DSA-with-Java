@@ -9,5 +9,8 @@ public class NextGreaterEle2 {
         st.push("3");
         st.push("4");
         st.push("5");
+    while(st.size()==null){
+        st.pop();
+    }
     }
 }
