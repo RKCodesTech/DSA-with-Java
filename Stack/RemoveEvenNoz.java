@@ -1,7 +1,7 @@
 
 import java.util.Stack;
 
-public class RemoveEvenNo{
+public class RemoveEvenNoz{
     public static void main(String[] args) {
 
         Stack<Integer> st = new Stack<>();
@@ -29,3 +29,5 @@ public class RemoveEvenNo{
         System.out.println(st);
     }
 }
+//tc o(n)
+//sc o(n)
