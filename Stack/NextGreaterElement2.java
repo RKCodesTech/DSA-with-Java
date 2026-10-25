@@ -31,3 +31,5 @@ import java.util.Stack;
         
     }
 }
+//SC  O(n)	Output array and stack use linear space
+//TC O(n)	Each element is pushed and popped at most once
