@@ -27,3 +27,5 @@ public class celebrityProblem {
     }
 }
 }
+//tc o(n2)
+//sc o(1)
