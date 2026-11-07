@@ -15,7 +15,10 @@ st.push(heights[n-1])
         for(int i= n-2;i>0 ;i--){
             while(st.size()>&&st.peek()>=hieghts[i])st.pop();
             if(st.size()=0) nse[i]=n; //-1 nahi karege calculation ki vajah se
+            else nse[i]=st.peek();
+            st.push(i)
         }  
+        int[] pse =new int [n];
     }
 }
 
