@@ -1,3 +1,4 @@
+//leetcode 84
 package Stack;
 import java.util.*;
 class LargestRectange {
@@ -30,3 +31,5 @@ class LargestRectange {
         return maxarea;
     }
 }
+//tc-o(n)
+//sc-o(n)
