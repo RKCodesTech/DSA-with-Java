@@ -1,3 +1,4 @@
+//leecode 739
 package Stack;
 import java.util.*;
 class DailyTemprature {
@@ -11,8 +12,8 @@ class DailyTemprature {
             if(st.empty()) {output[i]=0;}
               else{ output[i]=st.peek()-i;
               }
-               st.push(i);
-        } 
+               st.push(i);  
+        }
         return output;
     } 
 }
