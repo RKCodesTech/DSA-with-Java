@@ -18,3 +18,6 @@ public class carfleet {
         return fleets;
     }
 }
+//Time Complexity: O(target + n)
+
+//Space Complexity: O(target)
