@@ -8,7 +8,7 @@ public class carfleet {
         for(int i = 0; i < n; i++) {
             time[position[i]] = (double)(target - position[i]) / speed[i];
         }
-        double maxTime = 0;
+        double maxTime = 0;-*9+
         for(int i = target; i >= 0; i--) {
             if(time[i] > maxTime) {
                 fleets++;
