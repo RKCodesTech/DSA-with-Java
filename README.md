@@ -26,4 +26,4 @@ This repository contains my daily DSA practice in Java.
 
 ### Goal
 
-Learn, practice, and improve problem-solving skills through consistent coding.
+Learn, practice, and growing problem-solving skills through consistent coding.
