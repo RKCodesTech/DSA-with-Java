@@ -8,6 +8,7 @@ public static void main(String[] args) {
     st.push(4);//store integer values in st
     st.push(6);          
     st.push(2);
+    st.push(8);
     System.out.println(st);
     while(st.size()>0){
         int top=st.pop();//remove from st and store in top
