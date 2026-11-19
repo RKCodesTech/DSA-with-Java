@@ -13,12 +13,10 @@ class visiblePeopleInQueue {
                 st.pop();
             }
             if (st.size() > 0)
-                count++; // important
-
+                count++; //increament size
             ans[i] = count;
             st.push(arr[i]);
         }
-
         return ans;
     }
 }
