@@ -24,6 +24,7 @@ This repository contains my daily DSA practice in Java.
 * Graphs
 * Dynamic Programming
 * Stack
+* HashMap
 
 ### Goal
 
