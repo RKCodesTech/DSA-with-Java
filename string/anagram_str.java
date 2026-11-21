@@ -1,6 +1,6 @@
 package string;
 import java.util.Arrays;
-//                            practice thiiisssssssssssssssss without using array
+// practice thiiisssssssssssssssss without using array
 public class anagram_str {
     public static void main(String[] args) {
         String str1="abb";
