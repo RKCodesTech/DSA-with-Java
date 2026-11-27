@@ -30,4 +30,5 @@ public class StockSpanProblem {
         return span;
     }
 }
-
+//tc -o(n)
+///s -o(n)
